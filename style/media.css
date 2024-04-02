@@ -1,0 +1,192 @@
+@media(max-width:1140px) {
+    .film__box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 540px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .title {
+        margin: 30px 0;
+    }
+}
+
+@media(max-width:1100px) {
+    .header {
+        height: max-content;
+    }
+
+    .intro {
+        height: 600px;
+    }
+
+}
+
+@media(max-width:800px) {
+    .image{
+        width: 400px;
+        height: 85px;   
+    }
+    .main__text2{
+        font-weight: 300;
+        font-size: 14px;
+        margin: 45px 0;
+        width: 530px;
+    }
+    .maintile{
+        font-size: 10px;
+        font-weight: 400;
+        padding: 14px 44px;
+        width: 70px;
+        height: 9px;    
+    }
+    .title {
+        margin: 20px 0;
+        font-size: 30px;
+        line-height: 100%;
+    }
+
+    .nav__list {
+        position: fixed;
+        flex-direction: column;
+        background-color: var(--dark);
+        width: 100%;
+        height: 100vh;
+        top: -1000px;
+        left: 0;
+        align-items: center;
+        padding-top: 50px;
+        transition: 0.5s;
+    }
+
+    .nav__menu {
+        display: block;
+    }
+
+    .nav__close {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+
+    .nav {
+        padding: 20px 0;
+    }
+
+    .nav__link span {
+        padding: 20px 6px;
+    }
+
+    #check:checked~.nav__list {
+        top: -80px;
+    }
+
+    .intro {
+        height: 550px;
+    }
+}
+@media(max-width:750px){
+    .film__card{
+        width: 230px;
+        height: 350px;
+        padding: 0 13px;
+    }
+    .film__time{
+        font-weight: 350;
+        font-size: 12px;
+        width: 90px;
+        height: 22px;
+    }
+    .film__title{
+        font-weight: 350;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .film__text {
+        font-weight: 350;
+        font-size: 12px;
+    }
+    .image{
+        width: 350px;
+        height: 80px;   
+    }
+    .main__tex2{
+        font-weight: 200;
+        font-size: 12px;
+        margin: 43px 0;
+        width: 500px;
+    }
+    .maintile{
+        font-size: 200px;
+        font-weight: 500;
+        padding: 14px 44px;
+        width: 70px;
+        height: 9px;    
+    }
+    .intro__title{
+        font-size: 55px;
+    }
+    .intro__text {
+        font-size: 16px;
+        line-height: 24px;    
+        margin: 28px 0 45px;
+    }
+
+
+
+}
+@media(max-width:600px){
+    .film__card{
+        width: 200px;
+        height: 300px;
+        padding: 0 11px;
+    }
+    .film__time{
+        font-weight: 300;
+        font-size: 10px;
+        width: 80px;
+        height: 28px;
+    }
+    .film__title{
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .film__text {
+        font-weight: 300;
+        font-size: 10px;
+    }
+    .image{
+        width: 300px;
+        height: 75px;   
+    }
+    .main__text2{
+        font-weight: 100;
+        font-size: 10px;
+        margin: 41px 0;
+        width: 400px;
+    }
+    .maintile{
+        font-size: 100px;
+        font-weight: 300;
+        padding: 10px 40px;
+        width: 60px;
+        height: 7px;    
+    } 
+      
+    
+    .intro__title{
+        font-size: 50px;
+    }
+    .intro__text {
+        font-size: 14px;
+        line-height: 22px;    
+        margin: 24px 0 40px;
+    }
+
+
+
+}
